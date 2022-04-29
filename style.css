@@ -1,0 +1,475 @@
+body {
+	font-family: "Roboto",sans-serif;
+	font-weight: 300;
+}
+
+.jumbotron {
+	background-image: url("https://mdbootstrap.com/img/Photos/Others/gradient12.webp");
+	margin-top: 4vw;
+	color: white;
+	text-align: center;
+	height: 31vw;
+	border-radius: 10px;
+	box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.jumbotron-h1 {
+	margin-bottom: 2.2vw;
+}
+
+#h1 {
+	color: white;
+	font-size: 5vw;
+}
+
+.jumbotron-p {
+	color: white;
+	font-size: 2vw;
+	padding-left: 3vw;
+	padding-right: 3vw;
+
+}
+
+.jumbotron-btn {
+	border: 3.5px solid white;
+	background-color: transparent;
+	color: white;
+	padding: 0.9vw;
+	position: relative;
+	top: 3vw;
+	font-size: 1.7vw;
+}
+
+.jumbotron-btn:hover {
+	color: azure;
+}
+
+.sectionA {
+	margin-top: 4vw;
+}
+
+
+.sectionA-box {
+	text-align: center;
+	margin-bottom: 8vw;
+}
+
+.sectionA-img {
+	width: 100%;
+	height: 20vw;
+	object-fit: cover;
+	margin-bottom: 1vw;
+	border-radius: 5px;
+}
+
+.sectionA-h2 {
+	margin-top: 1.5vw;
+	font-size: 3vw;
+}
+
+.sectionA-p {
+	margin-top: 2.5vw;
+	font-size: 1.3vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.sectionA-btn {
+	color: #C2AAF6;
+	position: relative;
+	top: 2vw;
+}
+
+.border {
+	box-shadow: 1px 5px 5px 2px rgba(0, 0, 0, 0.2);
+	height: 39vw;
+	border-radius: 10px;
+}
+
+.sectionB-grid {
+	display: grid;
+	grid-template-columns: 65% 35%;
+	margin-bottom: 10vw;
+}
+
+.sectionB-h2 {
+	font-size: 4vw;
+	padding-left: 2vw;
+	margin-top: 2.7vw;
+}
+
+.sectionB-p {
+	padding-left: 2vw;
+	margin-top: 3vw;
+	font-size: 1.5vw;
+}
+
+.sectionB-img {
+	width: 100%;
+	object-fit: cover;
+	height: 15vw;
+	padding-right: 2vw;
+}
+
+.sectionC {
+	text-align: center;
+}
+
+.sectionC-h2 {
+	font-size: 3vw;;
+}
+
+.sectionC-p {
+	margin-left: 10%;
+	width: 80%;
+	margin-top: 2vw;
+	font-size: 1.4vw;
+}
+
+.social-media {
+	display: flex;
+	align-items: center;
+	width: 30%;
+	margin-left: 35%;
+	justify-content: space-around;
+	margin-top: 3vw;
+}
+
+.icon {
+	font-size: 2vw;
+	color: black;
+}
+
+.footer-p {
+	margin-top: 5vw;
+	margin-bottom: 2vw;
+	text-align: right;
+	padding-right: 5vw;
+}
+
+
+
+@media screen and (max-width: 1200px) { 
+	.jumbotron {
+		margin-top: 5vw;
+		height: 39vw;
+	}
+
+	.jumbotron-h1 {
+		margin-top: 4vw;
+		margin-bottom: 3vw;
+	}
+
+	.jumbotron-btn {
+		top: 3vw;
+	}
+
+	.sectionC-h2 {
+		font-size: 3.5vw;
+	}
+
+	.sectionC-p {
+		font-size: 2vw;
+		width: 50%;
+		margin-left: 25%;
+		margin-top: 2vw;
+		margin-bottom: 4vw;
+	}
+
+	.icon {
+		font-size: 3vw;
+	}
+ }
+
+@media screen and (max-width: 992px) { 
+	.jumbotron {
+		height: 50vw;
+	}
+
+	.jumbotron-h1 {
+		margin-top: 1vw;
+		margin-bottom: 4vw;
+	}
+
+	.jumbotron-btn {
+		top: 5vw;
+		font-size: 2.3vw;
+	}
+
+	.sectionA-h2 {
+		font-size: 3vw;
+		margin-top: 2vw;
+	}
+
+	.sectionA-p {
+		font-size: 1.5vw;
+		margin-top: 3vw;
+	}
+
+	.sectionA-btn {
+		font-size: 1.5vw;
+	}
+
+	.border {
+		height: 43vw;
+	}
+
+	.sectionB-grid {
+		margin-top: 5vw;
+	}
+
+	.sectionB-h2 {
+		font-size: 4.5vw;
+	}
+
+	.sectionB-p {
+		font-size: 2.1vw
+	}
+
+	.sectionB-img {
+		height: 20vw;
+		padding-left: 2vw;
+	}
+	
+	.footer-p {
+		margin-top: 10vw;
+		margin-bottom: 3vw;
+	}
+
+ }
+
+@media screen and (max-width:840px) { 
+	.jumbotron {
+		height: 60vw;
+	}
+
+	.jumbotron-h1 {
+		margin-top: 2vw;
+		margin-bottom: 6vw;
+	}
+
+	.jumbotron-btn {
+		top: 6vw;
+		font-size: 2.6vw;
+		padding: 2vw;
+	}
+
+	.sectionA {margin-top: 5vw;}
+
+	.sectionA-h2 {
+		font-size: 4vw;
+		margin-top: 3.2vw;
+	}
+
+	.sectionA-p {
+		font-size: 2vw;
+		margin-top: 3.7vw;
+	}
+
+	.sectionA-btn {
+		font-size: 2vw;
+		top: 2vw;
+	}
+
+	.border {
+		height: 52vw;
+	}
+
+	.sectionB-grid {
+		margin-top: 5vw;
+	}
+
+	.sectionB-h2 {
+		font-size: 5vw;
+	}
+
+	.sectionB-p {
+		font-size: 2.3vw
+	}
+
+	.sectionB-img {
+		height: 20vw;
+	}
+
+	.sectionC-h2 {
+		font-size: 5vw;
+	}
+
+	.sectionC-p {
+		font-size: 2.2vw;
+		margin-top: 3.4vw;
+		margin-bottom: 5.5vw;
+	}
+
+	.icon {
+		font-size: 3.5vw;
+	}
+
+	.footer-p {
+		margin-top: 12vw;
+		margin-bottom: 4vw;
+	}
+
+ }
+
+ @media screen and (max-width:768px) { 
+	.jumbotron {
+		height: 67vw;
+	}
+
+	.jumbotron-h1 {
+		margin-top: 4vw;
+		margin-bottom: 6vw;
+		font-size: 8vw;
+	}
+
+	.jumbotron-btn {
+		top: 8vw;
+		font-size: 2.6vw;
+		padding: 2.3vw;
+	}
+
+	.sectionA-img {
+		height: 50vw;
+	}
+
+	.sectionA-h2 {
+		font-size: 8vw;
+		margin-top: 6vw;
+	}
+
+	.sectionA-p {
+		font-size: 3.5vw;
+		margin-top: 7vw;
+	}
+
+	.sectionA-btn {
+		font-size: 3.5vw;
+		top:7vw;
+		margin-bottom: 500vw;
+	}
+
+	.border {
+		height: 100vw;
+	}
+
+	.sectionB-grid {
+		margin-top: 3vw;
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
+	}
+
+	.sectionB-h2 {
+		font-size: 8vw;
+	}
+
+	.sectionB-p {
+		font-size: 3.5vw
+	}
+
+	.sectionB-img {
+		margin-top: 3vw;
+		height: 50vw;
+	}
+
+	.sectionC-h2 {
+		font-size: 6vw;
+	}
+
+	.sectionC-p {
+		font-size: 2.5vw;
+		margin-top: 3.7vw;
+		margin-bottom: 7vw;
+	}
+
+	.icon {
+		font-size: 4vw;
+	}
+
+	.footer-p {
+		margin-top: 15vw;
+		margin-bottom: 4vw;
+	}
+	
+ }
+
+ @media screen and (max-width:654px) { 
+	.jumbotron {
+		height: 75vw;
+	}
+
+	.jumbotron-h1 {
+		margin-top: 4vw;
+		margin-bottom: 6vw;
+		font-size: 9vw;
+	}
+
+	.jumbotron-btn {
+		top: 7vw;
+		font-size: 2.6vw;
+		padding: 2vw;
+	}
+	
+ }
+
+ @media screen and (max-width:586px) { 
+	.jumbotron {
+		height: 89vw;
+	}
+
+	.jumbotron-h1 {
+		margin-top: 5vw;
+		margin-bottom: 8vw;
+		font-size: 10vw;
+	}
+
+	.jumbotron-btn {
+		top: 8vw;
+		font-size: 3vw;
+		padding: 2vw;
+	}
+
+	.footer-p {
+		margin-top: 20vw;
+		margin-bottom: 6vw;
+	}
+
+ }
+
+ @media screen and (max-width:528px) { 
+	.jumbotron {
+		height: 108vw;
+	}
+
+	.jumbotron-h1 {
+		margin-top: 7vw;
+		margin-bottom: 9vw;
+		font-size: 10vw;
+	}
+
+	.jumbotron-btn {
+		top: 11vw;
+		font-size: 4vw;
+		padding: 2vw;
+	}
+
+	.sectionC-h2 {
+		font-size: 7vw;
+		margin-top: 0vw;
+	}
+
+	.sectionC-p {
+		font-size: 3.5vw;
+		margin-top: 3.4vw;
+		margin-bottom: 8vw;
+	}
+
+	.social-media {
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	.icon {
+		font-size: 5vw;
+	}
+ }
